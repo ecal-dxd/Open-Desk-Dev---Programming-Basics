@@ -1,4 +1,6 @@
+
 window.onload = async () => {
+	
 	const homeText = document.getElementById("home-button");
 	const imageHome = document.getElementById("image-home");
 	let imageCounter = 0;
