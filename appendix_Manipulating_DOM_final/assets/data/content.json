@@ -1,0 +1,451 @@
+{
+	"images": [],
+	"title": "Fantastic Smartphones",
+	"institution": "ECAL / École cantonale d’art de Lausanne",
+	"program": "Bachelor Media & Interaction Design",
+	"theme": {
+		"images": [],
+		"title": "Reflexion on Smartphone Culture",
+		"description": {
+			"fr": "Nous avons déjà utilisé un smartphone pour explorer presque tous les aspects de notre existence. [...] En imaginant des moyens innovants d’interagir avec nos smartphones ou en déléguant nos gestes répétitifs à des machines, cette exposition porte un regard critique sur une société devenue addict à un objet qui semble devenu indispensable: le téléphone «intelligent».",
+			"en": "We have already used smartphones to explore almost every aspect of our lives. [...] By imagining alternative ways of interacting with our smartphones or by delegating our repetitive actions to machines, this exhibition takes a critical look at a society that has become addicted to an object that seems to have become indispensable: the “smart” phone."
+		},
+		"key_questions": [
+			"Le smartphone améliore-t-il réellement l’humanité ou nous rend-il dépendant·e·s ?",
+			"Est-il sain d’avoir accès à autant de contenu ?",
+			"Où se trouve la juste balance entre connexion et isolement ?",
+			"Quelles alternatives à la dépendance numérique peuvent être imaginées ?"
+		],
+		"concepts": [
+			"Ubiquité numérique",
+			"Économie de l’attention",
+			"Aliénation et dépendance",
+			"Critique de la surconsommation d’images",
+			"Recherche d’alternatives interactionnelles"
+		]
+	},
+	"projects": [
+		{
+			"images": ["11", "12", "13"],
+			"title": "Kinetic Scroll",
+			"students": ["Pablo Bellon", "Kylan Luginbühl", "Yaël Sidler"],
+			"teachers": ["Vincent Jacquier", "Pauline Saglio"],
+			"development": ["SIGMASIX", "Tibor Udvari"],
+			"description": {
+				"fr": "L'installation Kinetic Scroll est une matrice de smartphones munis de mécanismes leur permettant de scroller infiniment. Ce mur fait écho aux pages de réseaux sociaux à travers lesquelles nous scrollons parfois pendant des heures. Cet ensemble d'écrans en mouvement représente, sous forme de chorégraphie métaphorique, les foules d'aujourd'hui: scroller tous ensemble, mais scroller chacun·e pour soi. Scroller à l'infini, mais pour quoi faire? Scroller par peur de manquer une image qui devrait être vue, mais dont on ne se souviendra pas dix images plus tard. Qu'espère-t-on atteindre ou qu'espère-t-on fuir? Hors du temps, cette installation cinétique au rythme régulier cherche à hypnotiser et capter l'attention à l'instar des flux d'images continus si emblématiques des interfaces d'aujourd'hui.",
+				"en": "The Kinetic Scroll installation is a matrix of smartphones equipped with mechanisms that enable them to scroll endlessly. This wall echoes the social networks pages through which we sometimes scroll for hours. This set of moving screens represents, in the form of metaphorical choreography, contemporary crowds scrolling all together, but scrolling each for themselves. Scrolling endlessly, but what for? Scrolling for fear of missing an image that must be seen, but which will not be remembered ten images later. What do we hope to reach or what do we hope to escape from? This timeless kinetic installation with its regular rhythm seeks to hypnotise and capture attention like the continuous flow of images so emblematic of today's interfaces."
+			},
+			"tags": [
+				"addiction",
+				"social-media",
+				"automation",
+				"installation",
+				"attention",
+				"infinite-scroll"
+			]
+		},
+		{
+			"images": ["28", "29", "30"],
+			"title": "Taptaptap",
+			"students": ["Lisa Kishtoo", "Bastien Mouthon", "Diane Thouvenin"],
+			"teachers": ["Vincent Jacquier", "Pauline Saglio"],
+			"development": ["SIGMASIX", "Tibor Udvari"],
+			"description": {
+				"fr": "La saisie prédictive est une fonctionnalité ayant pour but de simplifier la saisie de texte sur smartphone. (...) Quels genres de discussions peuvent émerger d'un dialogue dont les phrases et le lexique sont formatés et normalisés par des algorithmes? Pourtant dépourvu d'intention de communication, ce dialogue machinique ne semble pas vide de sens, prenant parfois même des tournures poétiques.",
+				"en": "Predictive text is a feature that aims to simplify text input on smartphones. (...) What kind of discussions can emerge from a dialogue whose sentences and lexicon are formatted and standardised by algorithms? Although devoid of communicative intent, this machine dialogue does not appear devoid of meaning, and sometimes even takes poetic turns."
+			},
+			"tags": ["ai", "communication", "algorithms", "language", "automation"]
+		},
+		{
+			"images": ["14", "15", "16", "17", "18"],
+			"title": "Meanwhile",
+			"students": ["Léonard Guyot", "Maya Bellier", "Paul Lëon"],
+			"teachers": ["Vincent Jacquier", "Pauline Saglio"],
+			"development": ["SIGMASIX", "Tibor Udvari"],
+			"description": {
+				"fr": "Depuis que le smartphone est omniprésent dans nos vies, notre rapport au temps n'est plus le même: il est distordu. (...) Une fois le ticket en main, cette accumulation de phrases aux chiffres exorbitants met en perspective l'usage que l'on fait de notre smartphone: insignifiant à l'échelle d'une personne, mais effrayant à l'échelle planétaire.",
+				"en": "Since the smartphone has become ubiquitous in our lives, our relationship with time is no longer the same and has become distorted. (...) With ticket in hand, this accumulation of phrases with exorbitant figures puts into perspective the use we make of our smartphone: insignificant"
+			},
+			"tags": ["time", "addiction", "awareness", "waiting", "global-impact"]
+		},
+		{
+			"images": ["02", "03"],
+			"title": "Adam & Eve",
+			"students": ["Nora Fatehi", "Michael Pica", "Jorge Reis"],
+			"teacher": "Roel Wouters",
+			"assistants": ["Laura Nieder", "Callum Ross", "Tibor Udvari"],
+			"description": {
+				"fr": "Adam & Eve est une performance enregistrée revisitant une partie du célèbre récit de la création de l'Homme et la Femme selon les religions bibliques. (...) Cette mise en scène nous laisse entrevoir une réflexion sur les façons d'utiliser les systèmes de communication actuels et des dérives qui peuvent en découler.",
+				"en": "Adam & Eve is a recorded performance that revisits part of the famous story of the creation of Man and Woman according to biblical sources. (...) This tableau drives us to reflect on the ways current communication systems are used and the drifts that may result from them."
+			},
+			"tags": [
+				"performance",
+				"communication",
+				"social-media",
+				"metaphor",
+				"critical-design"
+			]
+		},
+		{
+			"images": ["19", "20"],
+			"title": "Selfie Robot",
+			"students": [
+				"Basil Dénéréaz",
+				"Sébastien Galera Larios",
+				"Rayane Jemaa",
+				"Ignacio Pérez"
+			],
+			"teachers": ["Thibault Brevet", "Vincent Jacquier", "Pauline Saglio"],
+			"assistant": "Pietro Alberti",
+			"description": {
+				"fr": "Depuis l'apparition de caméra sur la face avant des smartphones, le selfie semble s'être imposé comme un acte banal. A la fois geste narcissique et acte artistique, le selfie questionne la notion de représentation et revisite la tradition de l'autoportrait. Ces dernières années, la pratique du selfie s'est amplifiée par la démocratisation du selfie stick, un objet inconnu il y a une dizaine d'années, mais dont la forme et la posture d'utilisation font aujourd'hui partie de la culture populaire. Au détour d'un spot touristique, il est parfois intéressant d'observer les gens cherchant durant de longues minutes la position et l'angle pour la photo parfaite. Mais qu'en est-il si un robot s'emparait d'un selfie stick? Selfie Robot est une performance machinique mettant en scène un bras-robot muni d'un smartphone et d'un selfie stick se prenant en photo avec différents face filters. Aussi amusant que dérangeant, voir ce robot se contorsionner en quête du parfait selfie nous rend spectateur·rice·s de l'étrangeté de nos propres comportements.",
+				"en": "Since the appearance of cameras on the front of smartphones, the selfie seems to have become a commonplace act. Both a narcissistic gesture and an artistic act, the selfie questions the notion of representation and reinvents the tradition of the self-portrait. In recent years, the practice of the selfie has been amplified by the democratisation of the selfie stick, an object that was unknown ten years ago, but the use of which is now part of popular culture. In any given tourist spot, it is sometimes interesting to watch people trying at length to find the perfect position and angle for the perfect photo. But what if a robot grabbed hold of a selfie stick? Selfie Robot is a machine performance featuring a robotic arm equipped with a smartphone and a selfie stick taking pictures of itself with different face filters. As amusing as it is disturbing to see this robot contorting itself in search of the perfect selfie, it turns us into viewers of the incongruity of our own behaviour."
+			},
+			"tags": [
+				"robotics",
+				"performance",
+				"social-media",
+				"automation",
+				"self-representation",
+				"critical-design"
+			]
+		},
+		{
+			"images": ["04", "05", "06", "07", "08", "09", "10"],
+			"title": "Biobots",
+			"students": ["Aurélien Pellegrini", "Bastien Claessens", "Evan Kelly"],
+			"teachers": ["Vincent Jacquier", "Pauline Saglio"],
+			"development": ["SIGMASIX", "Tibor Udvari"],
+			"description": {
+				"fr": "Biobots critique la politique de grandes multinationales qui collectent et marchandent des données personnelles sur la santé de leurs clients grâce aux smartphones. Les ventes de ces informations à certaines institutions auraient de graves conséquences. Par exemple, une assurance-santé pourrait refuser une indemnité à une personne dont elle estime, selon ses données personnelles, qu'elle n'entretient pas assez sa condition physique. En simulant l'activité d'un individu à la santé parfaite, Biobots se présente comme une collection d'objets de résistance à cette collecte d'informations personnelles, un brouilleur permettant de garder le contrôle sur ses données personnelles.",
+				"en": "Biobots criticises the policy of large multinationals that collect and trade personal data through smartphones, relating to their customers' health. Selling this information to certain institutions would have serious consequences. For example, a health insurance company could deny a claim to a person who, based on his or her personal data, might be deemed not to be working on their fitness sufficiently. By simulating the activity of a perfectly healthy individual, Biobots presents itself as a collection of objects of resistance to this collection of personal information, a scrambler that helps people keep control over their personal data."
+			},
+			"tags": [
+				"data-privacy",
+				"health",
+				"surveillance",
+				"resistance",
+				"automation",
+				"critical-design",
+				"quantified-self"
+			],
+			"series": [
+				{
+					"images": [],
+					"title": "Podobot",
+					"subtitle": "AUTOWALKER (Pedometer. ITO Technologies Inc.)",
+					"description": {
+						"fr": "Podobot est une balançoire motorisée pour smartphone. Par ce mouvement de balancement, l'automate reproduit le mouvement d'un appareil présent dans la poche d'une personne qui marche. Le podomètre du smartphone capte alors une longue marche au rythme régulier et enregistre ces données de marche dans l'application simulant le fait que son utilisateur·rice est en bonne forme physique.",
+						"en": "Podobot is a motorised swing for smartphones. With this swinging movement, the automaton mimics the movement of a device in a person's pocket while walking. The smartphone's pedometer then captures a long walk at a steady pace and records this walking data in the application, simulating that the user is in good physical shape."
+					}
+				},
+				{
+					"images": [],
+					"title": "Cardiobot",
+					"subtitle": "AUTOPULSER (Cardiio. Cardiio Inc.)",
+					"description": {
+						"fr": "Cardiobot est un dispositif conçu pour tromper une application mobile permettant d'étudier notre rythme cardiaque. Normalement conçue pour traiter le flux vidéo d'une caméra apposée sur la peau, cette application analyse la fréquence des nuances de rouge vues par la caméra au passage du sang. Cardiobot reproduit cette séquence rouge en faisant tourner un disque recouvert d'aplats de différentes nuances de rouge. La caméra du smartphone alors plaquée à ce disque en rotation perçoit de subtils changements de teintes rouges. La vitesse de rotation du disque étant régulière, l'application déduit un rythme cardiaque très stable et sain et enregistre ces données comme étant celles de l'utilisateur·rice.",
+						"en": "Cardiobot is a device designed to fool a mobile application into studying your heart rate. Normally designed to process the video stream from a camera on the skin, the application analyses the frequency of shades of red seen by the camera as the blood passes through. Cardiobot reproduces this red sequence by spinning a disc covered with flat patches of different shades of red. The smartphone's camera, which is then placed against the rotating disc, perceives subtle changes in the red tones. Since the speed of rotation of the disc is regular, the application deduces that the heart rate is very stable and healthy and records this data as that of the user."
+					}
+				},
+				{
+					"images": [],
+					"title": "Sleepbot",
+					"subtitle": "SLEEPERMACHINE (Sleep Cycle. Sleep Cycle AB)",
+					"description": {
+						"fr": "Sleepbot est conçu pour accueillir un smartphone sous sa cloche de verre afin de l'isoler du bruit ambiant. Situé à proximité d'une enceinte émettant un bruit blanc, il se trouve immergé dans un environnement sonore similaire à celui d'une chambre dans laquelle une personne dormirait. A intervalles réguliers, l'enceinte émet des bruits parasites simulant les mouvements d'une personne endormie et qui sont effectués durant une phase de sommeil peu profond. Dans un tel contexte, les sons captés par le smartphone sont ceux d'un parfait sommeil réparateur et font croire que l'utilisateur·rice a une très bonne hygiène de sommeil.",
+						"en": "Sleepbot is designed to house a smartphone under its glass cover to isolate it from ambient noise. Placed next to a speaker broadcasting white noise, it is immersed in a sound environment similar to that of a bedroom in which a person would be sleeping. At regular intervals the speaker emits noises that simulate the movements of a sleeping person during a shallow sleep phase. In such a context, the sounds captured by the smartphone are those of a perfect, restful sleep and make the user appear to have very good sleep patterns."
+					}
+				}
+			]
+		},
+		{
+			"images": ["00", "01"],
+			"title": "A Screentime Connaisseurs Lexicon",
+			"students": [
+				"Antony Demierre",
+				"Basil Dénéréaz",
+				"Nora Fatehi",
+				"Paul Fritz",
+				"Sébastien Galera Larios",
+				"Rayane Jemaa",
+				"Dorian Jovanovic",
+				"Valentine Leimgruber",
+				"Valerio Meschi",
+				"Ignacio Pérez",
+				"Michael Pica",
+				"Jorge Reis",
+				"Malik Sobgoui"
+			],
+			"visuals": ["Callum Ross"],
+			"teacher": "Roel Wouters",
+			"assistants": ["Laura Nieder", "Tibor Udvari"],
+			"description": {
+				"fr": "L'apparition des smartphones dans nos vies a radicalement changé notre quotidien à tel point que l'utilisation même de cet appareil a fait émerger un bon nombre de comportements inédits. Ces nouvelles attitudes sont pourtant multiples, quotidiennes et pour une grande majorité inconscientes. Dans un monde digital où l'évolution de ces comportements est souvent plus rapide que la création de mots pour les décrire, ce projet propose un regard sociologique d'une partie de ces différentes actions, pour nous confronter avec dérision à l'absurdité et aux dérives de certaines. Sous la forme d'un lexique, A Screentime Connaisseurs Lexicon fait l'étude de certains des comportements à travers une série de néologismes permettant de mieux cerner certaines addictions, moyens de résistance ou biais sociaux.",
+				"en": "The arrival of smartphones has radically changed our daily lives to such an extent that the very use of this device has led to the emergence of a good number of new behaviours. New attitudes are manifold, daily and for the most part unconscious. In a digital world where behaviour changes at a faster pace than new words can be created to describe them, this project offers a sociological look at some of these various attitudes, and mockingly forces us to face their absurdity and excessiveness. In the form of a lexicon, A Screentime Connaisseurs Lexicon studies some of this behaviour through a series of neologisms that enable us to better understand certain addictions, means of resistance and social biases."
+			},
+			"tags": [
+				"awareness",
+				"addiction",
+				"behavior",
+				"language",
+				"sociology",
+				"critical-design"
+			]
+		},
+		{
+			"images": ["22"],
+			"title": "Anti-Stress Case",
+			"students": ["Kylan Luginbühl", "Aurélien Pellegrini"],
+			"teachers": ["Alain Bellet", "Jesse Howard"],
+			"assistants": ["Lison Christe", "Martin Hertig"],
+			"description": {
+				"fr": "Votre smartphone vous a-t-il déjà stressé·e? L'Anti-Stress Case vous aide à gérer cela. Vous pouvez basculer entre plusieurs modules vous procurant des sensations tactiles agréables. Plus vous jouez avec cette coque, moins vous serez ennuyé·e par les notifications.",
+				"en": "Do you ever feel stressed by your smartphone? The Anti-Stress Case helps you deal with it. You can switch between various modules with pleasant tactile sensations. The more you play with the case, the less you'll be annoyed by the notifications"
+			},
+			"tags": [
+				"wellness",
+				"notifications",
+				"stress",
+				"haptic",
+				"product-design"
+			]
+		},
+		{
+			"images": ["23"],
+			"title": "Desktop Notification Center",
+			"students": ["Pablo Bellon", "Ivan Chestopaloff"],
+			"teachers": ["Alain Bellet", "Jesse Howard"],
+			"assistants": ["Lison Christe", "Martin Hertig"],
+			"description": {
+				"fr": "Desktop Notification Center est une collection de deux accessoires de bureau qui transmettent des notifications dans un environnement de travail tout en empêchant que l'utilisateur·rice soit perturbé·e ou stressé·e. Les notifications sont classées en trois catégories: important (coups de téléphone), peu important (messages écrits) et sans importance (réseaux sociaux).",
+				"en": "Desktop Notification Center is a collection of two desktop accessories that provide notifications in the work environment in a way that avoids unnecessary disturbance and stress. Notifications are classified in three categories: Important (calls), Not Urgent (messages), and Futile (social media)."
+			},
+			"tags": [
+				"notifications",
+				"productivity",
+				"work",
+				"social-media",
+				"product-design"
+			]
+		},
+		{
+			"images": ["26"],
+			"title": "TicTocLock",
+			"students": ["Paul Lëon", "Diane Thouvenin"],
+			"teachers": ["Alain Bellet", "Jesse Howard"],
+			"assistants": ["Lison Christe", "Martin Hertig"],
+			"description": {
+				"fr": "Depuis l'invention de technologies telles que la reconnaissance digitale et faciale, vous pouvez plus rapidement déverrouiller votre smartphone et le geste devient quasi-automatique. Si vous désirez jeter un coup d'oeil à l'heure, par exemple, vous vous retrouvez piégé·e par le flux des notifications des réseaux sociaux, bien que cela n'ait pas été votre première intention. TicTocLock a pour but d'introduire à nouveau ce geste du déverrouillage qui permet aux usagers de regagner le contrôle de leurs activités sur smartphone en visualisant physiquement le temps d'utilisation.",
+				"en": "With technologies such as fingerprint and facial recognition, unlocking the smartphone is becoming faster and less of a conscious gesture. For instance, you only wanted to quickly check the time but find yourself scrolling through social media, even though it wasn't your initial intention. TicTocLock aims to reinstate a gesture for the unlocking that helps the users take back control over their smartphone activity by physically visualising their usage time."
+			},
+			"tags": [
+				"time",
+				"awareness",
+				"control",
+				"social-media",
+				"screen-time",
+				"product-design"
+			]
+		},
+		{
+			"images": ["24"],
+			"title": "LIA — Leave It Alone",
+			"students": ["Bastien Classens", "Léonard Guyot"],
+			"teachers": ["Alain Bellet", "Jesse Howard"],
+			"assistants": ["Lison Christe", "Martin Hertig"],
+			"description": {
+				"fr": "LIA est un dock pour smartphone qui vous empêche de vouloir contrôler sans cesse votre téléphone pendant le travail. Avec ses angles inclinés, il est impossible d'enlever votre téléphone du dock sans raison: votre téléphone n'est accessible qu'après une nouvelle notification prioritaire.",
+				"en": "LIA is a smartphone dock that discourages you from constantly checking your phone while working. With its inclined edges, it is impossible to remove the phone from its dock without reason: only receiving priority notifications will make the phone accessible again."
+			},
+			"tags": [
+				"productivity",
+				"work",
+				"control",
+				"notifications",
+				"self-restraint",
+				"product-design"
+			]
+		},
+		{
+			"images": ["25"],
+			"title": "Mistarget",
+			"students": ["Antoine Barras", "Guillaume Giraud"],
+			"teachers": ["Alain Bellet", "Jesse Howard"],
+			"assistants": ["Lison Christe", "Martin Hertig"],
+			"description": {
+				"fr": "Est-ce que votre téléphone vous espionne? Mistarget est là pour vous le dire. De nombreuses personnes voudraient savoir si leur téléphone les écoute pour des raisons commerciales. Certain·e·s le mettent même à l'essai. Nous proposons une technologie pour automatiser le test. Lorsque le téléphone est connecté, le dock se met à murmurer des informations erronées. Des conversations simulées sur les besoins et les désirs des consommateur·rice·s sont enregistrées et stockées dans le dock. Est-ce que les pubs en seront affectées?",
+				"en": "Is your phone spying on you? Mistarget is here to tell you. A lot of people seem to be wondering whether their phone is listening to them for commercial reasons. Some of them even test their phones. We offer a technology that automates the test. When the phone is connected, the dock starts whispering misleading information. Fake conversations about needs and consumerist desires are recorded and stored"
+			},
+			"tags": [
+				"surveillance",
+				"data-privacy",
+				"advertising",
+				"resistance",
+				"critical-design",
+				"experiment"
+			]
+		}
+	],
+	"credits": [
+		{
+			"category": "project_heads",
+			"label_fr": "Responsables de projet",
+			"label_en": "Heads of Project",
+			"people": ["Vincent Jacquier", "Pauline Saglio"]
+		},
+		{
+			"category": "department_head_visual_communication",
+			"label_fr": "Responsable du Département Communication Visuelle",
+			"label_en": "Head of Visual Communication Department",
+			"people": ["Vincent Jacquier"]
+		},
+		{
+			"category": "program_head_mid",
+			"label_fr": "Responsable du Bachelor Media & Interaction Design",
+			"label_en": "Head of Bachelor Media & Interaction Design",
+			"people": ["Pauline Saglio"]
+		},
+		{
+			"category": "teachers",
+			"label_fr": "Enseignant·e·s",
+			"label_en": "Teachers",
+			"people": [
+				"Alain Bellet",
+				"Thibault Brevet (AATB)",
+				"Jesse Howard",
+				"Vincent Jacquier",
+				"Eric Morzier (SIGMASIX)",
+				"Florian Pittet (SIGMASIX)",
+				"Pauline Saglio",
+				"Tibor Udvari",
+				"Roel Wouters (Moniker)"
+			]
+		},
+		{
+			"category": "assistants",
+			"label_fr": "Assistant·e·s",
+			"label_en": "Assistants",
+			"people": [
+				"Pietro Alberti",
+				"Lison Christe",
+				"Martin Hertig",
+				"Laura Nieder",
+				"Callum Ross"
+			]
+		},
+		{
+			"category": "coordination_development",
+			"label_fr": "Coordination & développement",
+			"label_en": "Coordination & Development",
+			"people": [
+				"Lison Christe",
+				"Julien Gurtner",
+				"Pascal Ospelt",
+				"Callum Ross",
+				"SIGMASIX",
+				"Tibor Udvari"
+			]
+		},
+		{
+			"category": "exhibition_design",
+			"label_fr": "Scénographie",
+			"label_en": "Exhibition Design",
+			"people": ["Anthony Guex"]
+		},
+		{
+			"category": "students_mid",
+			"label_fr": "Étudiant·e·s en Bachelor Media & Interaction Design",
+			"label_en": "Students in Bachelor Media & Interaction Design",
+			"people": [
+				"Antoine Barras",
+				"Maya Bellier",
+				"Pablo Bellon",
+				"Bastien Claessens",
+				"Ivan Chestopaloff",
+				"Antony Demierre",
+				"Basil Dénéréaz",
+				"Nora Fatehi",
+				"Paul Fritz",
+				"Sébastien Galera Larios",
+				"Guillaume Giraud",
+				"Souhaïb Ghanmi",
+				"Léonard Guyot",
+				"Rayane Jemaa",
+				"Dorian Jovanovic",
+				"Evan Kelly",
+				"Lisa Kishtoo",
+				"Kylan Luginbühl",
+				"Valentine Leimgruber",
+				"Valerio Meschi",
+				"Bastien Mouthon",
+				"Paul Lëon",
+				"Ignacio Pérez",
+				"Aurélien Pellegrini",
+				"Michael Pica",
+				"Jorge Reis",
+				"Yaël Sidler",
+				"Malik Sobgoui",
+				"Diane Thouvenin"
+			]
+		},
+		{
+			"category": "ecal_director",
+			"label_fr": "Direction de l’ECAL",
+			"label_en": "ECAL Director",
+			"people": ["Alexis Georgacopoulos"]
+		},
+		{
+			"category": "exhibition_organisation",
+			"label_fr": "Organisation de l’exposition",
+			"label_en": "Exhibition Organisation",
+			"people": ["Antoine Vauthey"]
+		},
+		{
+			"category": "press_communication",
+			"label_fr": "Presse & communication",
+			"label_en": "Press & Communication",
+			"people": ["Selim Atakurt"]
+		},
+		{
+			"category": "photography",
+			"label_fr": "Photographie",
+			"label_en": "Photography",
+			"notes": "© ECAL/Jimmy Rachez"
+		},
+		{
+			"category": "text",
+			"label_fr": "Texte",
+			"label_en": "Text",
+			"people": ["Paul Lëon"]
+		},
+		{
+			"category": "graphic_design",
+			"label_fr": "Design graphique",
+			"label_en": "Graphic Design",
+			"people": ["Arthur Seguin", "Kylan Luginbühl"]
+		},
+		{
+			"category": "movie",
+			"label_fr": "Film",
+			"label_en": "Movie",
+			"people": ["Gianni Camporota", "Léonard Guyot"]
+		},
+		{
+			"category": "music",
+			"label_fr": "Musique",
+			"label_en": "Music",
+			"people": ["Callum Ross"]
+		},
+		{
+			"category": "institution",
+			"label_fr": "ECAL / École cantonale d’art de Lausanne",
+			"label_en": "University of Art and Design Lausanne",
+			"address": ["Avenue du Temple 5", "1020 Renens, Suisse/Switzerland"],
+			"social": {
+				"instagram": ["@ecal_ch", "@ecal_mid"],
+				"website": "www.ecal.ch"
+			}
+		}
+	]
+}

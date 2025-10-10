@@ -22,6 +22,7 @@ function myApp() {
 	function onClickHandler(event) {
 		const mouseX = event.clientX;
 		const mouseY = event.clientY;
+		let isClicked = false;
 		console.log(mouseX, mouseY);
 
 		for (let i = 0; i < circlesArray.length; i++) {
@@ -33,8 +34,13 @@ function myApp() {
 				mouseY <= c.y + c.radius
 			) {
 				c.isClicked();
+				circlesArray.splice(i, 1);
+				isClicked = true;
 				break;
 			}
+		}
+		if (!isClicked) {
+			createCircle(mouseX, mouseY);
 		}
 	}
 	let frameCount = 0;

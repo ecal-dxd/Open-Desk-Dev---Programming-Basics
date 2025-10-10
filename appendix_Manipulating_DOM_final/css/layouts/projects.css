@@ -1,0 +1,17 @@
+#projects-container {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 0.5rem;
+}
+
+.project-container {
+	padding: 0.5rem;
+	min-height: 300px;
+}
+
+.desc-container {
+	display: flex;
+	font-size: 0.8rem;
+	gap: 0.5rem;
+}

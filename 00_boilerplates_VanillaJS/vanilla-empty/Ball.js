@@ -17,11 +17,7 @@ class Ball {
 	draw() {
 		this.ctx.beginPath();
 		this.ctx.fillStyle = this.color;
-		if (this.hasBeenClicked) {
-			this.ctx.fillRect(this.x, this.y, this.radius, this.radius);
-		} else {
-			this.ctx.arc(this.x, this.y, this.radius, 0, 2 * Math.PI);
-		}
+		this.ctx.arc(this.x, this.y, this.radius, 0, 2 * Math.PI);
 		this.ctx.fill();
 		this.ctx.closePath();
 	}
