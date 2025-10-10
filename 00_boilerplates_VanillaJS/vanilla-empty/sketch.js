@@ -2,11 +2,41 @@ function map(num, start1, stop1, start2, stop2) {
 	return ((num - start1) / (stop1 - start1)) * (stop2 - start2) + start2;
 }
 function myApp() {
+	// const john = new Person("john", 25, "Lausanne", 1980);
+	// const jane = new Person("jane", 30, "Berlin", 1970);
+	// console.log(john);
+
+	// john.sayHello();
+	// jane.sayHello();
+
 	const myCanvas = document.createElement("canvas");
 	document.body.appendChild(myCanvas);
 	const width = window.innerWidth;
 	const height = window.innerHeight;
 	const ctx = myCanvas.getContext("2d");
+
+	window.addEventListener("click", onClickHandler);
+
+	// window.addEventListener("click", onClickHandler);
+
+	function onClickHandler(event) {
+		const mouseX = event.clientX;
+		const mouseY = event.clientY;
+		console.log(mouseX, mouseY);
+
+		for (let i = 0; i < circlesArray.length; i++) {
+			const c = circlesArray[i];
+			if (
+				mouseX >= c.x - c.radius &&
+				mouseX <= c.x + c.radius &&
+				mouseY >= c.y - c.radius &&
+				mouseY <= c.y + c.radius
+			) {
+				c.isClicked();
+				break;
+			}
+		}
+	}
 	let frameCount = 0;
 	myCanvas.width = width;
 	myCanvas.height = height;
@@ -45,47 +75,37 @@ function myApp() {
 			color: "rgb(0,0," + mappedColor + ")",
 		};
 
-		console.log(circle.color);
-		circlesArray.push(circle);
+		const c = circle;
+
+		const object = new Ball(
+			c.x,
+			c.y,
+			c.speedX,
+			c.speedY,
+			c.radius,
+			c.color,
+			ctx,
+			width,
+			height
+		);
+
+		object.getPosition();
+
+		circlesArray.push(object);
 	}
 
 	function drawCircles() {
 		ctx.clearRect(0, 0, width, height);
-
 		ctx.fillStyle = "rgba(255,255,255,0.05)";
 		ctx.fillRect(0, 0, width, height);
 		ctx.fillStyle = "black";
 
-		const columnWidth = width / numCircles;
-		const columnHeight = height / numCircles;
 		for (let i = 0; i < circlesArray.length; i++) {
-			// console.log(circlesArray[i]);
-			const elem = circlesArray[i];
-			elem.x = elem.x + elem.speedX;
-			elem.y = elem.y + elem.speedY;
-			ctx.beginPath();
-			ctx.fillStyle = elem.color;
-			ctx.arc(elem.x, elem.y, elem.radius, 0, 2 * Math.PI);
-			ctx.fill();
-			ctx.closePath();
-
-
-			if (elem.x > width - elem.radius) {
-				elem.speedX = -elem.speedX;
-			}
-			if (elem.x < elem.radius) {
-				elem.speedX = -elem.speedX;
-			}
-			if (elem.y > height - elem.radius) {
-				elem.speedY = -elem.speedY;
-			}
-			if (elem.y < elem.radius) {
-				elem.speedY = -elem.speedY;
-			}
+			circlesArray[i].update();
+			circlesArray[i].draw();
 		}
 
 		frameCount = frameCount + 1;
-
 		requestAnimationFrame(drawCircles);
 	}
 

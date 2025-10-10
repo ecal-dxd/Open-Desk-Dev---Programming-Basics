@@ -10,6 +10,8 @@ class Ball {
 		this.setup();
 	}
 
+	getPosition() {}
+
 	setup() {
 		const max = 1;
 		const min = -1;
