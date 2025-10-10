@@ -1,0 +1,53 @@
+header {
+	z-index: 1000;
+	position: fixed;
+	bottom: 0%;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 1rem;
+	background-color: white;
+	border-radius: 2rem;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+		0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+		0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+	text-transform: uppercase;
+}
+
+ul {
+	all: unset;
+	display: flex;
+}
+
+header li {
+	all: unset;
+	padding: 1rem;
+}
+
+header a {
+	text-decoration: none;
+	color: rgb(190, 190, 190);
+	transition: color 0.2s ease;
+}
+
+header li:hover {
+	color: red;
+	transition: all 0.25s ease;
+}
+
+header li:hover a {
+	color: black;
+}
+
+header li.active {
+	border-radius: 2rem;
+	background-color: #ffff00;
+}
+
+header li:hover:not(.active) {
+	border-radius: 2rem;
+	background-color: rgb(255, 255, 215);
+}
+
+header li.active a {
+	color: black;
+}

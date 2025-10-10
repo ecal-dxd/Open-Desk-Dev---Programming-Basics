@@ -1,0 +1,23 @@
+.tags-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.25rem;
+	padding-bottom: 0.5rem;
+	margin-top: 1rem;
+}
+
+.absolute-image .tags-container {
+	margin: 0.5rem;
+	padding-bottom: 0rem;
+}
+
+
+.tag-container {
+	font-size: 0.7rem;
+	background-color: rgba(0, 0, 0, 0.5);
+	/* padding: 0 0.5rem 0 0.5rem; */
+	padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+	border-radius: 2rem;
+	width: max-content;
+	color: white;
+}

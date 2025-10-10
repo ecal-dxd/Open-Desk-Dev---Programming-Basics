@@ -1,0 +1,22 @@
+@font-face {
+	font-family: "riforma-medium";
+	src: url("./../../assets/fonts/RiformaLL-Medium.otf") format("opentype"),
+		url("./../../assets/fonts/RiformaLL-Medium.woff") format("woff");
+}
+
+@font-face {
+	font-family: "suisse-intl-mono";
+	src: url("./../../assets/fonts/SuisseIntlMono-Regular.otf") format("opentype");
+}
+
+html,
+body {
+	font-family: "suisse-intl-mono", "riforma-medium", Arial, Helvetica,
+		sans-serif;
+	font-weight: unset;
+}
+
+h1 {
+	font-size: 10vw;
+	line-height: 90%;
+}
