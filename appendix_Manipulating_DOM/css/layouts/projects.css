@@ -14,6 +14,19 @@
 	gap: 1rem;
 }
 
+.title-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	padding: 1rem;
+	justify-content: center;
+	align-items: flex-start;
+	color: black;
+}
+
 button {
 	all: unset;
 }
@@ -36,6 +49,7 @@ button {
 .project-container {
 	padding: 0.5rem;
 	min-height: 300px;
+	position: relative;
 }
 
 .desc-container {
