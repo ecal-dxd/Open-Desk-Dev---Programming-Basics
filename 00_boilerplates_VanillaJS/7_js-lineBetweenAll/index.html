@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="">
 	<head>
 		<meta charset="utf-8" />
@@ -11,6 +11,16 @@
 				overflow: hidden;
 				filter: contrast(120%);
 			}
+			button {
+				position: relative;
+				z-index: 1;
+				width: 100px;
+				height: 100px;
+			}
+			#canvas {
+				position: relative;
+				z-index: -1;
+			}
 		</style>
 		<script src="./Ball.js"></script>
 		<script src="./sketch.js"></script>
@@ -18,6 +28,7 @@
 
 	<body>
 		<main>
+			<button>Click Me</button>
 			<canvas id="canvas" />
 		</main>
 	</body>

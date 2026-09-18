@@ -3,7 +3,7 @@ const grid = {
 	numRows: 10,
 };
 const ball = {
-	radius: 100,
+	radius: 10,
 	color: "black",
 };
 
@@ -42,7 +42,7 @@ function main() {
 					ball.color,
 					ctx,
 					width,
-					height
+					height,
 				);
 				ballsArray.push(elem);
 
