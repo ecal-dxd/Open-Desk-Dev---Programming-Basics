@@ -1,4 +1,3 @@
 *.DS_Store
 
 # VanillaJS exercises (keeps vanilla-empty tracked)
-00_boilerplates_VanillaJS/[0-9]*_*/
